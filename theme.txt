@@ -1,0 +1,24 @@
+# Main options
+title-text: ""
+#desktop-image: "background.png"
+desktop-color: "#30343c"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "3"
+message-color: "#01adaf"
+message-bg-color: "#000000"
+
++ boot_menu {
+    left = 30%-300
+    top = 20%-100
+    width = 600
+    height = 300
+    item_color = "#01adaf"
+    color = "#01adaf"
+    item_spacing = 10
+    selected_item_color = "#ffffff"
+    selected_item_pixmap_style = "select_*.png"
+    menu_pixmap_style = "menu_border_*.png"
+}
